@@ -7,8 +7,8 @@ const $ = require('cheerio');
 
 const linksHash = {
 	0: 'apexLink',
-	1: 'twitterLink',
-	2: 'twitchLink'
+	1: 'twitchLink',
+	2: 'twitterLink'
 };
 
 router.get('/a/:category', function(req, res, next) {
